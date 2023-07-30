@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btnNavbar {
+  display: flex;
+  justify-content: space-around;
+}
+.btnNavbar .btn {
+  border: 1px solid white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input:checked,
+.buttonWidgetAnnotation .radioButton:checked {
+  background-color: black !important;
+}
